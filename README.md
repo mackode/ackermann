@@ -5,8 +5,6 @@ The Ackermann function is a classic example of a recursive function, notable esp
 
 The Ackermann function is usually defined as follows:
 
-
-{\displaystyle A(m,n)={\begin{cases}n+1&{\mbox{if }}m=0\\A(m-1,1)&{\mbox{if }}m>0{\mbox{ and }}n=0\\A(m-1,A(m,n-1))&{\mbox{if }}m>0{\mbox{ and }}n>0.\end{cases}}}
-
+![alt Ackermann function](https://wikimedia.org/api/rest_v1/media/math/render/svg/1a15ea2fcf1977e497bccdf1916ae23edc412fff)
 
 Its arguments are never negative and it always terminates.
